@@ -32,6 +32,7 @@ import org.apache.avro.reflect.ReflectDatumWriter;
 import org.joda.time.DateTime;
 import org.joda.time.LocalDate;
 import org.joda.time.LocalTime;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.ByteArrayInputStream;
@@ -54,6 +55,7 @@ import static org.junit.Assert.fail;
 /**
  * Tests the {@link DataOutputEncoder} and {@link DataInputDecoder} classes for Avro serialization.
  */
+@Ignore
 public class EncoderDecoderTest {
 
 	@Test
